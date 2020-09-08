@@ -23,9 +23,10 @@ $ yarn add lhr-gulp-cli
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const lhrGulpCli = require('lhr-gulp-cli')
-"dev": "cross-env NODE_ENV=dev gulp dev",
-"build": "cross-env NODE_ENV=prod gulp build",
+// const lhrGulpCli = require('lhr-gulp-cli')
+// result ==> 直接在scripts脚本中配置
+"dev": "cross-env NODE_ENV=dev lhr-gulp-cli dev",
+"build": "cross-env NODE_ENV=prod lhr-gulp-cli build",
 "serve": "http-server dist -p 3001"
 ```
 
@@ -44,6 +45,7 @@ const lhrGulpCli = require('lhr-gulp-cli')
   4. images --> \*.\*
   5. include --> *.html
   7. 一些不需要打包的，最后会被打包到根目录下的文件，放到public目录中。比如index.html
+  8. css预处理使用less
 - 虽然本项目使用gulp打包，但是无需添加gulpfile.js， 开箱即用。
 - 后续会使用外部约定的js文件(例如gulp.config.js) 重写这些目录，达到抽象文件路径的功能。解耦合，灵活性更高。
 - 后续会增加其他模块的打包方式
