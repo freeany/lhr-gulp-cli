@@ -24,7 +24,9 @@ $ yarn add lhr-gulp-cli
 
 ```javascript
 const lhrGulpCli = require('lhr-gulp-cli')
-lhr-gulp-cli project-name
+"dev": "cross-env NODE_ENV=dev gulp dev",
+"build": "cross-env NODE_ENV=prod gulp build",
+"serve": "http-server dist -p 3001"
 ```
 
 ## 说明
