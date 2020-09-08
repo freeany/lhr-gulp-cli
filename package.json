@@ -1,0 +1,87 @@
+{
+    "_from": "lhr-gulp-cli",
+    "_id": "lhr-gulp-cli@0.5.0",
+    "_inBundle": false,
+    "_integrity": "sha1-jXB9CXZxF7l076LoLRpr0OzFyqg=",
+    "_location": "/lhr-gulp-cli",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "tag",
+        "registry": true,
+        "raw": "lhr-gulp-cli",
+        "name": "lhr-gulp-cli",
+        "escapedName": "lhr-gulp-cli",
+        "rawSpec": "",
+        "saveSpec": null,
+        "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "_resolved": "https://registry.npm.taobao.org/lhr-gulp-cli/download/lhr-gulp-cli-0.5.0.tgz",
+    "_shasum": "8d707d09767117b974efa2e82d1a6bd0ecc5caa8",
+    "_spec": "lhr-gulp-cli",
+    "_where": "C:\\Users\\user\\Desktop\\cc",
+    "author": {
+        "name": "freeany",
+        "email": "812974019@qq.com"
+    },
+    "bin": {
+        "lhr-gulp-cli": "bin/cli.js"
+    },
+    "bugs": {
+        "url": "https://github.com/freenay/lhr-gulp-cli/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {
+        "@babel/core": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "browser-sync": "^2.26.7",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.2.0",
+        "gulp-file-include": "^2.0.1",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-if": "^3.0.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-less": "^4.0.1",
+        "gulp-rev": "^9.0.0",
+        "gulp-rev-collector": "^1.3.3",
+        "gulp-uglify": "^3.0.2",
+        "gulp-useref": "^4.0.1"
+    },
+    "deprecated": false,
+    "description": "a gulp cli",
+    "devDependencies": {
+        "standard": "^14.3.4"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "engines": {
+        "node": ">=8"
+    },
+    "files": [
+        "lib",
+        "bin",
+        "build"
+    ],
+    "homepage": "https://github.com/freenay/lhr-gulp-cli#readme",
+    "keywords": [
+        "lhr-gulp-cli"
+    ],
+    "license": "MIT",
+    "main": "lib/index.js",
+    "name": "lhr-gulp-cli",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/freenay/lhr-gulp-cli.git"
+    },
+    "scripts": {
+        "lint": "standard --fix"
+    },
+    "version": "0.5.0"
+}
